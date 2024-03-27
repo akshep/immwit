@@ -1,0 +1,118 @@
+h1,h2, h3, h4, h5, h6,
+.h1,.h2, .h3, .h4, .h5, .h6{
+	font-family: 'Outfit', sans-serif;	
+	font-weight:500;
+	color: #122237;
+	letter-spacing:0px;
+	text-transform:capitalize;
+}
+
+:root{
+--main-color:#1EAE8F;
+--secondry-color:#122237;
+}
+
+#websiteheader{
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: transparent;
+	padding: 20px 0;
+	transition: 0.3s;
+	z-index: 100;
+}
+
+.section_top .container img {
+    max-width: 100px;
+    max-height: 50px;
+    margin-left: 15px;
+  }
+
+  .main-banner{
+position: relative;
+padding: 100px 0 0px 0 !important;
+height: calc(100vh - 0px);
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+  }
+
+  @media(max-width:1199px){
+	.top_sec .container{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+	
+
+
+  #websiteheader.sticky-header {
+    background: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    transition: 0.3s;
+   background: #122237;
+  }
+  
+  .sticky-header #navigation .main_menu_container_menu > ul > li > a{
+      color:#fff;
+  }
+  
+   #websiteheader.sticky-header .container img{
+      filter: brightness(0) invert(1);
+  }
+  
+  #websiteheader.sticky-header .demo:hover{
+      background: #fff!important;
+      color:var(--main-color)!important;
+  }
+  
+  body.logged-in  #websiteheader{
+      top:30px;
+  }
+  
+  
+   #websiteheader .demo {
+  height: 54px;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 12px 28px;
+  background: var(--main-color);
+  border-radius: 40px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  font-family: 'Outfit', sans-serif;
+  position: relative;
+  top: 5px;
+  }
+  
+  
+   #websiteheader .demo:hover{
+      color: #ffffff;
+  box-shadow: 0px 10px 30px 0px rgb(120,89,252,0.5);
+  }
+  
+  
+  .scroll-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: var(--main-color);
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    z-index: 50;
+    display: none;
+  }
+  
